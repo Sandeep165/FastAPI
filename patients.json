@@ -1,0 +1,72 @@
+{
+  "P001": {
+    "name": "Aria Sharma",
+    "age": 29,
+    "city": "Mumbai",
+    "weight": 58,
+    "blood_type": "O+"
+  },
+  "P002": {
+    "name": "Rohan Mehta",
+    "age": 42,
+    "city": "Delhi",
+    "weight": 75,
+    "blood_type": "A-"
+  },
+  "P003": {
+    "name": "Sana Kapoor",
+    "age": 35,
+    "city": "Bengaluru",
+    "weight": 63,
+    "blood_type": "B+"
+  },
+  "P004": {
+    "name": "Kabir Singh",
+    "age": 50,
+    "city": "Kolkata",
+    "weight": 82,
+    "blood_type": "AB+"
+  },
+  "P005": {
+    "name": "Maya Nair",
+    "age": 27,
+    "city": "Chennai",
+    "weight": 54,
+    "blood_type": "O-"
+  },
+  "P006": {
+    "name": "Aditya Bose",
+    "age": 60,
+    "city": "Hyderabad",
+    "weight": 79,
+    "blood_type": "A+"
+  },
+  "P007": {
+    "name": "Leena Desai",
+    "age": 45,
+    "city": "Pune",
+    "weight": 68,
+    "blood_type": "B-"
+  },
+  "P008": {
+    "name": "Imran Qureshi",
+    "age": 38,
+    "city": "Lucknow",
+    "weight": 71,
+    "blood_type": "O+"
+  },
+  "P009": {
+    "name": "Neha Jain",
+    "age": 31,
+    "city": "Ahmedabad",
+    "weight": 59,
+    "blood_type": "AB-"
+  },
+  "P010": {
+    "name": "Vikram Patel",
+    "age": 55,
+    "city": "Surat",
+    "weight": 85,
+    "blood_type": "A+"
+  }
+}
