@@ -1,72 +1,141 @@
 {
-  "P001": {
-    "name": "Aria Sharma",
-    "age": 29,
-    "city": "Mumbai",
-    "weight": 58,
-    "blood_type": "O+"
-  },
-  "P002": {
-    "name": "Rohan Mehta",
-    "age": 42,
-    "city": "Delhi",
-    "weight": 75,
-    "blood_type": "A-"
-  },
-  "P003": {
-    "name": "Sana Kapoor",
-    "age": 35,
-    "city": "Bengaluru",
-    "weight": 63,
-    "blood_type": "B+"
-  },
-  "P004": {
-    "name": "Kabir Singh",
-    "age": 50,
-    "city": "Kolkata",
-    "weight": 82,
-    "blood_type": "AB+"
-  },
-  "P005": {
-    "name": "Maya Nair",
-    "age": 27,
-    "city": "Chennai",
-    "weight": 54,
-    "blood_type": "O-"
-  },
-  "P006": {
-    "name": "Aditya Bose",
-    "age": 60,
-    "city": "Hyderabad",
-    "weight": 79,
-    "blood_type": "A+"
-  },
-  "P007": {
-    "name": "Leena Desai",
-    "age": 45,
-    "city": "Pune",
-    "weight": 68,
-    "blood_type": "B-"
-  },
-  "P008": {
-    "name": "Imran Qureshi",
-    "age": 38,
-    "city": "Lucknow",
-    "weight": 71,
-    "blood_type": "O+"
-  },
-  "P009": {
-    "name": "Neha Jain",
-    "age": 31,
-    "city": "Ahmedabad",
-    "weight": 59,
-    "blood_type": "AB-"
-  },
-  "P010": {
-    "name": "Vikram Patel",
-    "age": 55,
-    "city": "Surat",
-    "weight": 85,
-    "blood_type": "A+"
-  }
+    "P001": {
+        "name": "string",
+        "age": 37,
+        "gender": "Male",
+        "city": "Mumbai",
+        "weight": 85.0,
+        "height": 175.0,
+        "bmi": 27.76,
+        "verdict": "Overweight"
+    },
+    "P002": {
+        "name": "Rohan Mehta",
+        "age": 42,
+        "gender": "Male",
+        "city": "Delhi",
+        "weight": 75,
+        "height": 175,
+        "blood_type": "A-",
+        "allergies": [
+            "Pollen"
+        ],
+        "verdict": "Normal weight"
+    },
+    "P003": {
+        "name": "Sana Kapoor",
+        "age": 35,
+        "gender": "Female",
+        "city": "Bengaluru",
+        "weight": 63,
+        "height": 168,
+        "blood_type": "B+",
+        "allergies": [
+            "Seafood",
+            "Dust"
+        ],
+        "verdict": "Normal weight"
+    },
+    "P004": {
+        "name": "Kabir Singh",
+        "age": 50,
+        "gender": "Male",
+        "city": "Kolkata",
+        "weight": 82,
+        "height": 178,
+        "blood_type": "AB+",
+        "allergies": [
+            "None"
+        ],
+        "verdict": "Overweight"
+    },
+    "P005": {
+        "name": "Maya Nair",
+        "age": 27,
+        "gender": "Female",
+        "city": "Chennai",
+        "weight": 54,
+        "height": 160,
+        "blood_type": "O-",
+        "allergies": [
+            "Milk"
+        ],
+        "verdict": "Normal weight"
+    },
+    "P006": {
+        "name": "Aditya Bose",
+        "age": 60,
+        "gender": "Male",
+        "city": "Hyderabad",
+        "weight": 79,
+        "height": 172,
+        "blood_type": "A+",
+        "allergies": [
+            "Penicillin"
+        ],
+        "verdict": "Overweight"
+    },
+    "P007": {
+        "name": "Leena Desai",
+        "age": 45,
+        "gender": "Female",
+        "city": "Pune",
+        "weight": 68,
+        "height": 165,
+        "blood_type": "B-",
+        "allergies": [
+            "Pollen",
+            "Dust"
+        ],
+        "verdict": "Normal weight"
+    },
+    "P008": {
+        "name": "Imran Qureshi",
+        "age": 38,
+        "gender": "Male",
+        "city": "Lucknow",
+        "weight": 71,
+        "height": 174,
+        "blood_type": "O+",
+        "allergies": [
+            "Shellfish"
+        ],
+        "verdict": "Normal weight"
+    },
+    "P009": {
+        "name": "Neha Jain",
+        "age": 31,
+        "gender": "Female",
+        "city": "Ahmedabad",
+        "weight": 59,
+        "height": 163,
+        "blood_type": "AB-",
+        "allergies": [
+            "Latex"
+        ],
+        "verdict": "Normal weight"
+    },
+    "P010": {
+        "name": "Vikram Patel",
+        "age": 55,
+        "gender": "Male",
+        "city": "Surat",
+        "weight": 85,
+        "height": 180,
+        "blood_type": "A+",
+        "allergies": [
+            "None"
+        ],
+        "verdict": "Overweight"
+    },
+    "P011": {
+        "name": "John Doe",
+        "age": 29,
+        "gender": "Male",
+        "city": "New York",
+        "weight": 59.0,
+        "height": 174.0,
+        "bmi": 0.0,
+        "verdict": "Underweight"
+    }
 }
