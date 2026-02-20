@@ -34,7 +34,7 @@ class Student(BaseModel):
     @property
     def grade(self) -> str:
         if self.avg_score >= 90:
-            return "A"
+            return "A" 
         elif self.avg_score >= 80:
             return "B"      
         elif self.avg_score >= 60:
