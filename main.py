@@ -115,7 +115,7 @@ def create_patient(patient: Patient):
         raise HTTPException(status_code=400,detail="Patient already exist with same patient ID")
     
     #Create new patient for new patient ID
-    data[patient.id] = patient.model_dump(exclude=["id"])
+    data[patient.id] = patient.model_dump(exclude={"id"})
     
     #save the entry of new patient in JSON
     save_data(data)
@@ -151,7 +151,7 @@ def update_patient(patient_id : str, patient: Update_patient):
     existing_data["id"] = patient_id 
     patient_pydantic_obj = Patient(**existing_data)
     
-    existing_data = patient_pydantic_obj.model_dump(exclude="id") 
+    existing_data = patient_pydantic_obj.model_dump(exclude={"id"}) 
     
     data[patient_id] = existing_data 
     

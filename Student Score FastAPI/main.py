@@ -37,10 +37,12 @@ class Student(BaseModel):
             return "A"
         elif self.avg_score >= 80:
             return "B"      
-        elif self.avg_score >= 70:
-            return "C"  
         elif self.avg_score >= 60:
+            return "C"  
+        elif self.avg_score >= 35:
             return "D"
+        else:
+            return "Fail"
 
 
 class Update_student(BaseModel):
@@ -87,7 +89,7 @@ def view_student(id : str = Path(description="View students based on ID")):
     return student_data[id]
 
 @app.get("/student/{id}/subjects")
-def view_student(id : str):
+def view_student_subjects(id : str):
     student_data = load_data()
     
     if id not in student_data:
@@ -106,7 +108,7 @@ def create_student(student : Student):
     if student.id in student_data:
         raise HTTPException(status_code=401 , detail="Student is already present in the data")
     
-    student_data[student.id] = student.model_dump(exclude=["id"])
+    student_data[student.id] = student.model_dump(exclude={"id"})
     
     #save the data back to the file
     save_data(student_data)
@@ -128,7 +130,7 @@ def update_student_data(id, student : Update_student):
     existing_data["id"] = student.id
     student_pydantic_obj = Student(**existing_data)
     
-    existing_data = student_pydantic_obj.model_dump(exclude="id")
+    existing_data = student_pydantic_obj.model_dump(exclude={"id"})
     
     student_data[id] = existing_data
     

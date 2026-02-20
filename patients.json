@@ -137,5 +137,15 @@
         "height": 174.0,
         "bmi": 0.0,
         "verdict": "Underweight"
+    },
+    "P012": {
+        "name": "John Cena",
+        "age": 45,
+        "gender": "Male",
+        "city": "New York",
+        "weight": 91.0,
+        "height": 169.0,
+        "bmi": 31.86,
+        "verdict": "Obese"
     }
 }
